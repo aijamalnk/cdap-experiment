@@ -1,5 +1,5 @@
 baseURL = ""
-title = "Docsy Example"
+title = "CDAP"
 
 enableRobotsTXT = true
 
@@ -56,16 +56,13 @@ id = "UA-00000000-0"
 
 [languages]
 [languages.en]
-title = "Docsy"
-description = "Docsy does docs"
+title = "CDAP.io"
+description = "CDAP is an open source framework for building data analytic applications."
 languageName ="English"
 # Weight used for sorting.
 weight = 1
-[languages.no]
-title = "Docsy"
-description = "Docsy er operativsystem for skyen"
-languageName ="Norsk"
-contentDir = "content/no"
+
+
 time_format_default = "02.01.2006"
 time_format_blog = "02.01.2006"
 
@@ -131,4 +128,16 @@ no = 'Sorry to hear that. Please <a href="https://github.com/USERNAME/REPOSITORY
 	icon = "fa fa-envelope"
         desc = "Discuss development issues around the project"
 
+
+# Top-level navigation (horizontal)
+
+[[menu.main]]
+    name = "Blog"
+    weight = 120
+    url = "https://medium.com/cdapio"
+
+[[menu.main]]
+    name = "Docs"
+    weight = 120
+    url = "https://docs.cdap.io/cdap/"
 
