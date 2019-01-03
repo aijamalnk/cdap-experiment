@@ -1,7 +1,7 @@
 
 ---
 title: "New CDAP Documentation"
-linkTitle: "New Documentation"
+linkTitle: "User guides"
 weight: 20
 menu:
   main:
