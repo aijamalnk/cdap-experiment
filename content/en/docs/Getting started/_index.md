@@ -1,6 +1,6 @@
 
 ---
-title: "Docsy User Guide"
+title: "CDAP User Guide"
 linkTitle: "Getting Started"
 weight: 3
 date: 2018-07-30

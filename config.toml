@@ -32,7 +32,7 @@ pygmentsStyle = "tango"
 
 # Configure how URLs look like per section.
 [permalinks]
-blog = "/:section/:year/:month/:day/:slug/"
+# blog = "/:section/:year/:month/:day/:slug/"
 
 ## Configuration for BlackFriday markdown parser: https://github.com/russross/blackfriday
 [blackfriday]
@@ -75,7 +75,7 @@ privacy_policy = "https://policies.google.com/privacy"
 github_repo = "https://github.com/google/docsy-example"
 
 # Google Custom Search Engine ID. Remove or comment out to disable search.
-gcs_engine_id = "011737558837375720776:fsdu1nryfng"
+# gcs_engine_id = "011737558837375720776:fsdu1nryfng"
 
 # User interface configuration
 [params.ui]
@@ -132,12 +132,23 @@ no = 'Sorry to hear that. Please <a href="https://github.com/USERNAME/REPOSITORY
 # Top-level navigation (horizontal)
 
 [[menu.main]]
+    name = "What is CDAP?"
+    weight = -103
+    url = "/docs/About/"
+
+[[menu.main]]
+    name = "Contribute"
+    weight = 120
+    url = "/docs/About/Contribute"
+
+[[menu.main]]
+    name = "Dowloads"
+    weight = 120
+    url = "https://cdap.io/downloads/"
+
+[[menu.main]]
     name = "Blog"
     weight = 120
     url = "https://medium.com/cdapio"
 
-[[menu.main]]
-    name = "Docs"
-    weight = 120
-    url = "https://docs.cdap.io/cdap/"
 
